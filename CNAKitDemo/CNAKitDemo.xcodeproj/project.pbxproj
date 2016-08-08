@@ -512,6 +512,7 @@
 				3023B9C11D58261000B4BBC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3023B9C21D58261000B4BBC4 /* Build configuration list for PBXNativeTarget "CNAKitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +521,7 @@
 				3023B9C41D58261000B4BBC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3023B9C51D58261000B4BBC4 /* Build configuration list for PBXNativeTarget "CNAKitDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +530,7 @@
 				3023B9C71D58261000B4BBC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

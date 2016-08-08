@@ -12,6 +12,8 @@
 		3023B9E21D5826DE00B4BBC4 /* CNAKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023B9E11D5826DE00B4BBC4 /* CNAKitTests.m */; };
 		3023B9EF1D58287500B4BBC4 /* CNAAddHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3023B9ED1D58287500B4BBC4 /* CNAAddHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3023B9F01D58287500B4BBC4 /* CNAAddHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023B9EE1D58287500B4BBC4 /* CNAAddHelper.m */; };
+		3023B9FD1D58558500B4BBC4 /* UIAlertView+CNAFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 3023B9FB1D58558500B4BBC4 /* UIAlertView+CNAFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3023B9FE1D58558500B4BBC4 /* UIAlertView+CNAFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023B9FC1D58558500B4BBC4 /* UIAlertView+CNAFormat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,8 @@
 		3023B9E31D5826DE00B4BBC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3023B9ED1D58287500B4BBC4 /* CNAAddHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CNAAddHelper.h; path = CommonHelper/CNAAddHelper.h; sourceTree = "<group>"; };
 		3023B9EE1D58287500B4BBC4 /* CNAAddHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CNAAddHelper.m; path = CommonHelper/CNAAddHelper.m; sourceTree = "<group>"; };
+		3023B9FB1D58558500B4BBC4 /* UIAlertView+CNAFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+CNAFormat.h"; path = "Base/Category/UIAlertView+CNAFormat.h"; sourceTree = "<group>"; };
+		3023B9FC1D58558500B4BBC4 /* UIAlertView+CNAFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+CNAFormat.m"; path = "Base/Category/UIAlertView+CNAFormat.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 		3023B9D41D5826DE00B4BBC4 /* CNAKit */ = {
 			isa = PBXGroup;
 			children = (
+				3023B9F91D58536000B4BBC4 /* Base */,
 				3023B9EC1D58284000B4BBC4 /* CommonHelper */,
 				3023B9D51D5826DE00B4BBC4 /* CNAKit.h */,
 				3023B9D71D5826DE00B4BBC4 /* Info.plist */,
@@ -100,6 +105,23 @@
 			name = CommonHelper;
 			sourceTree = "<group>";
 		};
+		3023B9F91D58536000B4BBC4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3023B9FA1D58536800B4BBC4 /* Category */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		3023B9FA1D58536800B4BBC4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3023B9FB1D58558500B4BBC4 /* UIAlertView+CNAFormat.h */,
+				3023B9FC1D58558500B4BBC4 /* UIAlertView+CNAFormat.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -109,6 +131,7 @@
 			files = (
 				3023B9D61D5826DE00B4BBC4 /* CNAKit.h in Headers */,
 				3023B9EF1D58287500B4BBC4 /* CNAAddHelper.h in Headers */,
+				3023B9FD1D58558500B4BBC4 /* UIAlertView+CNAFormat.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3023B9F01D58287500B4BBC4 /* CNAAddHelper.m in Sources */,
+				3023B9FE1D58558500B4BBC4 /* UIAlertView+CNAFormat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +418,7 @@
 				3023B9E81D5826DE00B4BBC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3023B9E91D5826DE00B4BBC4 /* Build configuration list for PBXNativeTarget "CNAKitTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +427,7 @@
 				3023B9EB1D5826DE00B4BBC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
