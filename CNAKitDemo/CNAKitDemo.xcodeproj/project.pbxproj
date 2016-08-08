@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3023B9971D58261000B4BBC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023B9961D58261000B4BBC4 /* main.m */; };
+		3023B99A1D58261000B4BBC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023B9991D58261000B4BBC4 /* AppDelegate.m */; };
+		3023B99D1D58261000B4BBC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023B99C1D58261000B4BBC4 /* ViewController.m */; };
+		3023B9A01D58261000B4BBC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3023B99E1D58261000B4BBC4 /* Main.storyboard */; };
+		3023B9A21D58261000B4BBC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3023B9A11D58261000B4BBC4 /* Assets.xcassets */; };
+		3023B9A51D58261000B4BBC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3023B9A31D58261000B4BBC4 /* LaunchScreen.storyboard */; };
+		3023B9B01D58261000B4BBC4 /* CNAKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023B9AF1D58261000B4BBC4 /* CNAKitDemoTests.m */; };
+		3023B9BB1D58261000B4BBC4 /* CNAKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023B9BA1D58261000B4BBC4 /* CNAKitDemoUITests.m */; };
+		3023B9F51D5834DA00B4BBC4 /* CNAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3023B9F41D5834DA00B4BBC4 /* CNAKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3023B9AC1D58261000B4BBC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3023B98A1D58260F00B4BBC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3023B9911D58261000B4BBC4;
+			remoteInfo = CNAKitDemo;
+		};
+		3023B9B71D58261000B4BBC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3023B98A1D58260F00B4BBC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3023B9911D58261000B4BBC4;
+			remoteInfo = CNAKitDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3023B9921D58261000B4BBC4 /* CNAKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CNAKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3023B9961D58261000B4BBC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3023B9981D58261000B4BBC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3023B9991D58261000B4BBC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3023B99B1D58261000B4BBC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3023B99C1D58261000B4BBC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3023B99F1D58261000B4BBC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3023B9A11D58261000B4BBC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3023B9A41D58261000B4BBC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3023B9A61D58261000B4BBC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3023B9AB1D58261000B4BBC4 /* CNAKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CNAKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3023B9AF1D58261000B4BBC4 /* CNAKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNAKitDemoTests.m; sourceTree = "<group>"; };
+		3023B9B11D58261000B4BBC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3023B9B61D58261000B4BBC4 /* CNAKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CNAKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3023B9BA1D58261000B4BBC4 /* CNAKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNAKitDemoUITests.m; sourceTree = "<group>"; };
+		3023B9BC1D58261000B4BBC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3023B9F41D5834DA00B4BBC4 /* CNAKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CNAKit.framework; path = "../../../../Library/Developer/Xcode/DerivedData/CNAKitDemo-cactjxiarpoqooesohukqgfyudol/Build/Products/Debug-iphoneos/CNAKit.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3023B98F1D58261000B4BBC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3023B9F51D5834DA00B4BBC4 /* CNAKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3023B9A81D58261000B4BBC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3023B9B31D58261000B4BBC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3023B9891D58260F00B4BBC4 = {
+			isa = PBXGroup;
+			children = (
+				3023B9941D58261000B4BBC4 /* CNAKitDemo */,
+				3023B9AE1D58261000B4BBC4 /* CNAKitDemoTests */,
+				3023B9B91D58261000B4BBC4 /* CNAKitDemoUITests */,
+				3023B9931D58261000B4BBC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3023B9931D58261000B4BBC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3023B9921D58261000B4BBC4 /* CNAKitDemo.app */,
+				3023B9AB1D58261000B4BBC4 /* CNAKitDemoTests.xctest */,
+				3023B9B61D58261000B4BBC4 /* CNAKitDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3023B9941D58261000B4BBC4 /* CNAKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3023B9981D58261000B4BBC4 /* AppDelegate.h */,
+				3023B9991D58261000B4BBC4 /* AppDelegate.m */,
+				3023B99B1D58261000B4BBC4 /* ViewController.h */,
+				3023B99C1D58261000B4BBC4 /* ViewController.m */,
+				3023B99E1D58261000B4BBC4 /* Main.storyboard */,
+				3023B9A11D58261000B4BBC4 /* Assets.xcassets */,
+				3023B9A31D58261000B4BBC4 /* LaunchScreen.storyboard */,
+				3023B9A61D58261000B4BBC4 /* Info.plist */,
+				3023B9F31D582B8200B4BBC4 /* Lib */,
+				3023B9951D58261000B4BBC4 /* Supporting Files */,
+			);
+			path = CNAKitDemo;
+			sourceTree = "<group>";
+		};
+		3023B9951D58261000B4BBC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3023B9961D58261000B4BBC4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3023B9AE1D58261000B4BBC4 /* CNAKitDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3023B9AF1D58261000B4BBC4 /* CNAKitDemoTests.m */,
+				3023B9B11D58261000B4BBC4 /* Info.plist */,
+			);
+			path = CNAKitDemoTests;
+			sourceTree = "<group>";
+		};
+		3023B9B91D58261000B4BBC4 /* CNAKitDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3023B9BA1D58261000B4BBC4 /* CNAKitDemoUITests.m */,
+				3023B9BC1D58261000B4BBC4 /* Info.plist */,
+			);
+			path = CNAKitDemoUITests;
+			sourceTree = "<group>";
+		};
+		3023B9F31D582B8200B4BBC4 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				3023B9F41D5834DA00B4BBC4 /* CNAKit.framework */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3023B9911D58261000B4BBC4 /* CNAKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3023B9BF1D58261000B4BBC4 /* Build configuration list for PBXNativeTarget "CNAKitDemo" */;
+			buildPhases = (
+				3023B98E1D58261000B4BBC4 /* Sources */,
+				3023B98F1D58261000B4BBC4 /* Frameworks */,
+				3023B9901D58261000B4BBC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CNAKitDemo;
+			productName = CNAKitDemo;
+			productReference = 3023B9921D58261000B4BBC4 /* CNAKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3023B9AA1D58261000B4BBC4 /* CNAKitDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3023B9C21D58261000B4BBC4 /* Build configuration list for PBXNativeTarget "CNAKitDemoTests" */;
+			buildPhases = (
+				3023B9A71D58261000B4BBC4 /* Sources */,
+				3023B9A81D58261000B4BBC4 /* Frameworks */,
+				3023B9A91D58261000B4BBC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3023B9AD1D58261000B4BBC4 /* PBXTargetDependency */,
+			);
+			name = CNAKitDemoTests;
+			productName = CNAKitDemoTests;
+			productReference = 3023B9AB1D58261000B4BBC4 /* CNAKitDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3023B9B51D58261000B4BBC4 /* CNAKitDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3023B9C51D58261000B4BBC4 /* Build configuration list for PBXNativeTarget "CNAKitDemoUITests" */;
+			buildPhases = (
+				3023B9B21D58261000B4BBC4 /* Sources */,
+				3023B9B31D58261000B4BBC4 /* Frameworks */,
+				3023B9B41D58261000B4BBC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3023B9B81D58261000B4BBC4 /* PBXTargetDependency */,
+			);
+			name = CNAKitDemoUITests;
+			productName = CNAKitDemoUITests;
+			productReference = 3023B9B61D58261000B4BBC4 /* CNAKitDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3023B98A1D58260F00B4BBC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = cocoanagisa;
+				TargetAttributes = {
+					3023B9911D58261000B4BBC4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					3023B9AA1D58261000B4BBC4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3023B9911D58261000B4BBC4;
+					};
+					3023B9B51D58261000B4BBC4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3023B9911D58261000B4BBC4;
+					};
+				};
+			};
+			buildConfigurationList = 3023B98D1D58260F00B4BBC4 /* Build configuration list for PBXProject "CNAKitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3023B9891D58260F00B4BBC4;
+			productRefGroup = 3023B9931D58261000B4BBC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3023B9911D58261000B4BBC4 /* CNAKitDemo */,
+				3023B9AA1D58261000B4BBC4 /* CNAKitDemoTests */,
+				3023B9B51D58261000B4BBC4 /* CNAKitDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3023B9901D58261000B4BBC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3023B9A51D58261000B4BBC4 /* LaunchScreen.storyboard in Resources */,
+				3023B9A21D58261000B4BBC4 /* Assets.xcassets in Resources */,
+				3023B9A01D58261000B4BBC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3023B9A91D58261000B4BBC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3023B9B41D58261000B4BBC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3023B98E1D58261000B4BBC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3023B99D1D58261000B4BBC4 /* ViewController.m in Sources */,
+				3023B99A1D58261000B4BBC4 /* AppDelegate.m in Sources */,
+				3023B9971D58261000B4BBC4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3023B9A71D58261000B4BBC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3023B9B01D58261000B4BBC4 /* CNAKitDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3023B9B21D58261000B4BBC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3023B9BB1D58261000B4BBC4 /* CNAKitDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3023B9AD1D58261000B4BBC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3023B9911D58261000B4BBC4 /* CNAKitDemo */;
+			targetProxy = 3023B9AC1D58261000B4BBC4 /* PBXContainerItemProxy */;
+		};
+		3023B9B81D58261000B4BBC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3023B9911D58261000B4BBC4 /* CNAKitDemo */;
+			targetProxy = 3023B9B71D58261000B4BBC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3023B99E1D58261000B4BBC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3023B99F1D58261000B4BBC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3023B9A31D58261000B4BBC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3023B9A41D58261000B4BBC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3023B9BD1D58261000B4BBC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3023B9BE1D58261000B4BBC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3023B9C01D58261000B4BBC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = CNAKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sipsys.ICT2Nagisa.CNAKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3023B9C11D58261000B4BBC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = CNAKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sipsys.ICT2Nagisa.CNAKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3023B9C31D58261000B4BBC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CNAKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sipsys.ICT2Nagisa.CNAKitDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CNAKitDemo.app/CNAKitDemo";
+			};
+			name = Debug;
+		};
+		3023B9C41D58261000B4BBC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CNAKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sipsys.ICT2Nagisa.CNAKitDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CNAKitDemo.app/CNAKitDemo";
+			};
+			name = Release;
+		};
+		3023B9C61D58261000B4BBC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CNAKitDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sipsys.ICT2Nagisa.CNAKitDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CNAKitDemo;
+			};
+			name = Debug;
+		};
+		3023B9C71D58261000B4BBC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CNAKitDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sipsys.ICT2Nagisa.CNAKitDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CNAKitDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3023B98D1D58260F00B4BBC4 /* Build configuration list for PBXProject "CNAKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3023B9BD1D58261000B4BBC4 /* Debug */,
+				3023B9BE1D58261000B4BBC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3023B9BF1D58261000B4BBC4 /* Build configuration list for PBXNativeTarget "CNAKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3023B9C01D58261000B4BBC4 /* Debug */,
+				3023B9C11D58261000B4BBC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3023B9C21D58261000B4BBC4 /* Build configuration list for PBXNativeTarget "CNAKitDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3023B9C31D58261000B4BBC4 /* Debug */,
+				3023B9C41D58261000B4BBC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3023B9C51D58261000B4BBC4 /* Build configuration list for PBXNativeTarget "CNAKitDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3023B9C61D58261000B4BBC4 /* Debug */,
+				3023B9C71D58261000B4BBC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3023B98A1D58260F00B4BBC4 /* Project object */;
+}
